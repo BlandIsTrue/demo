@@ -3,3 +3,5 @@
 将修改添到缓冲区：git add -A
 加备注：git commit -m "新建了xxx，修改了xxx"
 推到远程仓库：向一个空的新仓库中推文件：git push -u 仓库名称如demo 分支如主分支master (首次加上-u，意为将本地master分支和远程master分支关联起来，后续推送不用加)
+
+在github端修改后，点击commit changes(右上角)加上备注，确定。git中git pull demo，即可更新本地仓库
